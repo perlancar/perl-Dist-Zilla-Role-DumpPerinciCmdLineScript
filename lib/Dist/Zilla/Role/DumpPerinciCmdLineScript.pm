@@ -24,7 +24,7 @@ sub dump_perinci_cmdline_script {
     }
 
     Perinci::CmdLine::Dump::dump_perinci_cmdline_script(
-        filename => $file->name,
+        filename => $filename,
         libs => ['lib'],
     );
 }
