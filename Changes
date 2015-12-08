@@ -1,5 +1,13 @@
 Revision history for Dist-Zilla-Role-DumpPerinciCmdLineScript
 
+0.02    2015-12-08 (PERLANCAR)
+
+	- Set environment DZIL=1 to let script be aware it's being dumped
+	  in Dist::Zilla build context.
+
+        - Add a logging statement.
+
+
 0.01    2015-03-17 (PERLANCAR)
 
         - First release.
