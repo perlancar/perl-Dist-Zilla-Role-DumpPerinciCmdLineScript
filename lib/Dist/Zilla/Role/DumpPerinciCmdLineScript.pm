@@ -29,10 +29,13 @@ sub dump_perinci_cmdline_script {
 
     $self->log_debug(["Dumping Perinci::CmdLine script '%s'", $filename]);
 
-    Perinci::CmdLine::Dump::dump_perinci_cmdline_script(
+    my $res = Perinci::CmdLine::Dump::dump_perinci_cmdline_script(
         filename => $filename,
         libs => ['lib'],
     );
+
+    $self->log_debug(["Dump result: %s", $res]);
+    $res;
 }
 
 no Moose::Role;
