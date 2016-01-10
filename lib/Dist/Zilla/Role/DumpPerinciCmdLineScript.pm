@@ -6,6 +6,7 @@ package Dist::Zilla::Role::DumpPerinciCmdLineScript;
 use 5.010001;
 use Moose::Role;
 
+use Data::Dmp;
 use Perinci::CmdLine::Dump;
 
 sub dump_perinci_cmdline_script {
@@ -34,7 +35,7 @@ sub dump_perinci_cmdline_script {
         libs => ['lib'],
     );
 
-    $self->log_debug(["Dump result: %s", $res]);
+    $self->log_debug(["Dump result: %s", dmp($res)]);
     $res;
 }
 
