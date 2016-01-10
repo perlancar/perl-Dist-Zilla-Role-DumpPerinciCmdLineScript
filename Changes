@@ -1,5 +1,10 @@
 Revision history for Dist-Zilla-Role-DumpPerinciCmdLineScript
 
+0.03    2016-01-10 (PERLANCAR)
+
+        - Log result dump for debugging.
+
+
 0.02    2015-12-08 (PERLANCAR)
 
 	- Set environment DZIL=1 to let script be aware it's being dumped
