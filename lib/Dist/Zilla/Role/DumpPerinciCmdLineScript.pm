@@ -19,7 +19,7 @@ sub dump_perinci_cmdline_script {
     unless ($file->isa("Dist::Zilla::File::OnDisk")) {
         require File::Temp;
         my ($fh, $tempname) = File::Temp::tempfile();
-        print $fh $file->content;
+        print $fh $file->encoded_content;
         close $fh;
         $filename = $tempname;
     }
