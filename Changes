@@ -1,5 +1,3 @@
-Revision history for Dist-Zilla-Role-DumpPerinciCmdLineScript
-
 0.04    2016-05-20 (PERLANCAR)
 
 	- [Bugfix] Use encoded_content(), not content().
