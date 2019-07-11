@@ -1,14 +1,14 @@
-0.04    2016-05-20 (PERLANCAR)
+0.04    2016-05-20  Released-By: PERLANCAR
 
 	- [Bugfix] Use encoded_content(), not content().
 
 
-0.03    2016-01-10 (PERLANCAR)
+0.03    2016-01-10  Released-By: PERLANCAR
 
         - Log result dump for debugging.
 
 
-0.02    2015-12-08 (PERLANCAR)
+0.02    2015-12-08  Released-By: PERLANCAR
 
 	- Set environment DZIL=1 to let script be aware it's being dumped
 	  in Dist::Zilla build context.
@@ -16,6 +16,6 @@
         - Add a logging statement.
 
 
-0.01    2015-03-17 (PERLANCAR)
+0.01    2015-03-17  Released-By: PERLANCAR
 
         - First release.
