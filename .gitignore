@@ -2,3 +2,4 @@ Dist-Zilla-Role-DumpPerinciCmdLineScript-*
 .build
 *~
 nytprof*
+.DS_Store
